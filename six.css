@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com.css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;    
+    overflow: hidden;
+    margin-top: 35px;
+}
+.container{
+    width: 90%;
+    max-width: 1100px;
+    background: #1c1c1c;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.book{
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+/* .book:last-child{
+    /* border-bottom: none; */
+/* } */ 
+
+.book img{
+    width: 13%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+#one img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+#one .discription{
+    margin-top: 5px;
+}
+
+#two img{
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+#one img, #two img{
+    margin-left: 20px;
+}
+
+#three img{
+    padding-left: 20px;
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+}
+#one .discription,#two .discription,#three .discription{
+    margin-top: 20px;
+}
+.discription{
+    flex: 1;
+}
+h2{
+    font-size: 20px;
+    color: rgb(210, 203, 161);
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.2;
+    text-indent: 4em;
+}
+.highlight{
+    color: rgb(230, 151, 122);
+    font-weight: bold;
+}
+.author{
+    margin-top: 10px;
+    text-align: end;
+    font-style: italic;
+    color: gray;
+}
+.right{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.left{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
